@@ -1,0 +1,35 @@
+{
+  "name": "bootstrap-5",
+  "version": "1.0.0",
+  "description": "Landing BT Page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assests/css/",
+    "compile:sass:watch": "sass --watch scss:assests/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuneetSivananda/bootstrap-5.git"
+  },
+  "keywords": [
+    "BT",
+    "bootstrap",
+    "5",
+    "bootstrap-v5"
+  ],
+  "author": "Puneet Sivananda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PuneetSivananda/bootstrap-5/issues"
+  },
+  "homepage": "https://github.com/PuneetSivananda/bootstrap-5#readme",
+  "dependencies": {
+    "sass": "^1.34.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.1",
+    "postcss-cli": "^8.3.1"
+  }
+}
