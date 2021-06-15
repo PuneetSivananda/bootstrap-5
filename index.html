@@ -12,44 +12,74 @@
   <!--
       Start the Navbar section
   -->
-  <nav class="navbar navbar-expand-lg navbar-dark menu">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img alt="Logo image" src="images/logo.png"/>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-dark menu">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img alt="Logo image" src="images/logo.png"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <button type="button" class="rounded-pill btn-rounded">
+        +1 726565413
+        <span>
+        <i class="fas fa-phone-alt"></i>
+        </span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-        <button type="button" class="rounded-pill btn-rounded">
-          +1 726565413
-          <span>
-          <i class="fas fa-phone-alt"></i>
-          </span>
-        </button>
-      </div>
     </div>
-  </nav>
+  </div>
+</nav>
+
+  <!--/////////////////////////////////////////////////////////////////
+                  START THE INTRO SECTION 
+    //////////////////////////////////////////////////////////////////--> 
+
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row"></div>
+    <div class="col-md-6 intros">
+      <h1 class="display-2">
+        <span class="display-2--intro">
+          Hey, I am Patrick
+        </span>
+        <span class="display-2--description">
+          This is a multi-purpose responsive layout created from bootstrap v5. 
+          (here you can place your description text)
+        </span>
+      </h1>
+      <button type="button" class="rounded-pill btn-rounded">
+        Get in Touch
+        <span>
+        <i class="fas fa-arrow-right"></i>
+        </span>
+      </button>
+    </div>
+    <div class="col-md-6 intros"></div>
+  </div>
+</section>
+
+
   <script src="/assests/js/bootstrap.bundle.js"></script>
 </body>
 </html>
