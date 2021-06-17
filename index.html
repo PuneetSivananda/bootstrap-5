@@ -83,7 +83,7 @@
       <div class="col-md-6 intros text-end">
         <div class="video-box">
           <img src="images/arts/intro-section-illustration.png" alt="Video Illustration" class="img-fluid">
-          <a href="#" class="position-absolute top-50 start-50 translate-middle">
+          <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
             <span>
               <i class="fas fa-play-circle"></i>
             </span>
@@ -100,5 +100,15 @@
 
   <script src="/assests/js/bootstrap.bundle.js"></script>
   <script src="/assests/vendors/js/glightbox.min.js"></script>
+  <script type="text/javascript">
+    const lightbox = GLightbox({
+      'href':"https://www.youtube.com/watch?v=iJKCj8uAHz8",
+      'type': 'video',
+      'source': 'youtube',
+      'width': 900,
+      "autoPlayVideos":true ,
+      });
+
+  </script>
 </body>
 </html>
