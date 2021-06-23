@@ -14,7 +14,7 @@
   &__icon{
     width: 2rem;
     stroke: $primary;
-
+    padding-top: 0.5rem;
     @include media-breakpoint-up(sm){
       width: 4rem;
     }
@@ -39,6 +39,22 @@
 
       @include media-breakpoint-up(sm){
         font-size: 1rem;
+      }
+    }
+  }
+}
+
+//Style Social media content
+
+.footer-sm{
+  a{
+    color: $white;
+    i{
+      font-size: 1rem;
+      margin-left: 1rem;
+
+      @include media-breakpoint-up(sm){
+        font-size: 1.6rem;
       }
     }
   }
